@@ -29,11 +29,13 @@ const TabNavigation = () => {
                 else if(route.name === 'Activities'){
                     iconName = focused?'bulb':'bulb-outline';
                 }
+
+                const iconColor = focused ? '#4863D3' : '#757575';
                 
-                return <Ionicons name={iconName} size={30}/>
+                return <Ionicons name={iconName} size={30} color={iconColor}/>
             },
             tabBarOptions:{
-                activeTintColor: 'tomato',
+                activeTintColor: 'yellow',
                 inactiveTintColor: 'gray',
             },
             tabBarStyle: { backgroundColor: 'white',

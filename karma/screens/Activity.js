@@ -1,9 +1,13 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { Text, View } from 'react-native'
 
 const Activity = () => {
   return (
-    <Text>Activity Page</Text>
+    <View className="w-full h-full flex justify-center items-center">
+      <Text>Activity Page</Text>
+
+    </View>
+    
   )
 }
 
